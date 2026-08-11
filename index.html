@@ -15,8 +15,32 @@
       rel="stylesheet"
     />
     <script src="/js/config.js"></script>
-    <script type="module" crossorigin src="/assets/index-DuycFTHn.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D3Fn8b5X.css">
+    <script>
+      (function () {
+        var isAdmin = location.pathname.indexOf("/admin") === 0;
+        if (isAdmin) {
+          document.title = "Admin — Cấp code";
+          var css = document.createElement("link");
+          css.rel = "stylesheet";
+          css.href = "/css/admin.css";
+          document.head.appendChild(css);
+          var s = document.createElement("script");
+          s.src = "/js/admin-app.js";
+          document.head.appendChild(s);
+        } else {
+          var s = document.createElement("script");
+          s.type = "module";
+          s.crossOrigin = "";
+          s.src = "/assets/index-DuycFTHn.js";
+          document.head.appendChild(s);
+          var c = document.createElement("link");
+          c.rel = "stylesheet";
+          c.crossOrigin = "";
+          c.href = "/assets/index-D3Fn8b5X.css";
+          document.head.appendChild(c);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
