@@ -1,0 +1,10 @@
+{
+  "name": "lp-xoaipan-9d-g",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing xoaip.com + config link theo domain",
+  "scripts": {
+    "start": "npx --yes serve -l 3010 .",
+    "dev": "npx --yes serve -l 3010 ."
+  }
+}
