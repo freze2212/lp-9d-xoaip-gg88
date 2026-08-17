@@ -28,6 +28,9 @@
           s.src = "/js/admin-app.js";
           document.head.appendChild(s);
         } else {
+          if (typeof window.getPageTitle === "function") {
+            document.title = window.getPageTitle();
+          }
           var s = document.createElement("script");
           s.type = "module";
           s.crossOrigin = "";

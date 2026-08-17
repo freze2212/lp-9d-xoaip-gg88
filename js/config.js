@@ -24,6 +24,11 @@ window.SITE_CONFIG = {
     "gg8x.com": "https://t.me/quanchinhchutiktok",
     "checkmaan.vip": "https://t.me/laodai6789",
   },
+
+  titleByDomain: {
+    "gg8x.com": "GG8X.COM",
+    "checkmaan.vip": "CHECKMAAN.VIP",
+  },
 };
 
 function currentHost() {
@@ -52,3 +57,15 @@ window.getZaloUrl = function getZaloUrl() {
   }
   return "";
 };
+
+window.getPageTitle = function getPageTitle() {
+  const host = currentHost();
+  const map = (window.SITE_CONFIG && window.SITE_CONFIG.titleByDomain) || {};
+  if (map[host]) return map[host];
+  return host ? host.toUpperCase() : "XOAIP.COM";
+};
+
+(function applyPageTitle() {
+  if (location.pathname.indexOf("/admin") === 0) return;
+  document.title = window.getPageTitle();
+})();
