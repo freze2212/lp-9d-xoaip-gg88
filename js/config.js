@@ -29,6 +29,9 @@ window.SITE_CONFIG = {
     "gg8x.com": "GG8X.COM",
     "checkmaan.vip": "CHECKMAAN.VIP",
   },
+
+  // Cổng đang tối ưu (API gốc trả U888)
+  featuredPlatform: "GG88",
 };
 
 function currentHost() {
@@ -69,3 +72,26 @@ window.getPageTitle = function getPageTitle() {
   if (location.pathname.indexOf("/admin") === 0) return;
   document.title = window.getPageTitle();
 })();
+
+window.rewritePlatforms = function rewritePlatforms(list) {
+  const featured = (window.SITE_CONFIG && window.SITE_CONFIG.featuredPlatform) || "GG88";
+  const cta = typeof window.getCtaLink === "function" ? window.getCtaLink() : "";
+  if (!Array.isArray(list)) return list;
+  const mapped = list.map(function (p) {
+    if (!p) return p;
+    if (String(p.name || "").toUpperCase() === "U888") {
+      return Object.assign({}, p, { name: featured, registerUrl: cta || p.registerUrl });
+    }
+    if (String(p.name || "").toUpperCase() === featured.toUpperCase() && cta) {
+      return Object.assign({}, p, { registerUrl: cta });
+    }
+    return p;
+  });
+  const seen = {};
+  return mapped.filter(function (p) {
+    const key = String((p && p.name) || "").toUpperCase();
+    if (!key || seen[key]) return false;
+    seen[key] = true;
+    return true;
+  });
+};
