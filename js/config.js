@@ -5,7 +5,7 @@
 window.SITE_CONFIG = {
   defaultLink: "",
 
-  // Support contacts
+  // Support contacts (fallback nếu domain không khớp)
   telegramUrl: "https://t.me/quanchinhchutiktok",
   zaloUrl: "", // bỏ Zalo
 
@@ -17,11 +17,21 @@ window.SITE_CONFIG = {
 
   linksByDomain: {
     "gg8x.com": "https://www.gg8849.com/?id=784856976",
+    "checkmaan.vip": "https://www.gg8842.com/?id=274062184",
+  },
+
+  telegramByDomain: {
+    "gg8x.com": "https://t.me/quanchinhchutiktok",
+    "checkmaan.vip": "https://t.me/laodai6789",
   },
 };
 
+function currentHost() {
+  return (location.hostname || "").toLowerCase().replace(/^www\./, "");
+}
+
 window.getCtaLink = function getCtaLink() {
-  const host = (location.hostname || "").toLowerCase().replace(/^www\./, "");
+  const host = currentHost();
   const map = window.SITE_CONFIG.linksByDomain || {};
   const fromDomain = map[host];
   if (fromDomain) return fromDomain;
@@ -29,6 +39,9 @@ window.getCtaLink = function getCtaLink() {
 };
 
 window.getTelegramUrl = function getTelegramUrl() {
+  const host = currentHost();
+  const map = (window.SITE_CONFIG && window.SITE_CONFIG.telegramByDomain) || {};
+  if (map[host]) return map[host];
   return (window.SITE_CONFIG && window.SITE_CONFIG.telegramUrl) || "";
 };
 
