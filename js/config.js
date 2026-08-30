@@ -16,17 +16,17 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
-    "gg8x.com": "https://www.gg8849.com/?id=784856976",
+    "xoamagame.net": "https://www.gg8824.com/?id=950579334",
     "checkmaan.vip": "https://www.gg8842.com/?id=274062184",
   },
 
   telegramByDomain: {
-    "gg8x.com": "https://t.me/quanchinhchutiktok",
+    "xoamagame.net": "https://t.me/longhoangxoamaan",
     "checkmaan.vip": "https://t.me/laodai6789",
   },
 
   titleByDomain: {
-    "gg8x.com": "GG8X.COM",
+    "xoamagame.net": "XOAIMAGAME.NET",
     "checkmaan.vip": "CHECKMAAN.VIP",
   },
 
