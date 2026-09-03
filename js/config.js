@@ -18,17 +18,16 @@ window.SITE_CONFIG = {
   linksByDomain: {
     "xoamagame.net": "https://www.gg8824.com/?id=950579334",
     "checkmaan.vip": "https://www.gg8842.com/?id=274062184",
+    "hackmaan.us": "https://www.gg8859.com/?id=823591654",
   },
 
   telegramByDomain: {
     "xoamagame.net": "https://t.me/longhoangxoamaan",
     "checkmaan.vip": "https://t.me/laodai6789",
+    "hackmaan.us": "https://t.me/oobito222",
   },
 
-  titleByDomain: {
-    "xoamagame.net": "XOAIMAGAME.NET",
-    "checkmaan.vip": "CHECKMAAN.VIP",
-  },
+  titleByDomain: {},
 
   // Cổng đang tối ưu (API gốc trả U888)
   featuredPlatform: "GG88",
@@ -65,7 +64,11 @@ window.getPageTitle = function getPageTitle() {
   const host = currentHost();
   const map = (window.SITE_CONFIG && window.SITE_CONFIG.titleByDomain) || {};
   if (map[host]) return map[host];
-  return host ? host.toUpperCase() : "XOAIP.COM";
+  if (!host || host === "localhost" || /^\d+\.\d+\.\d+\.\d+$/.test(host)) {
+    return "xoamagame";
+  }
+  const name = host.split(".")[0];
+  return name || "xoamagame";
 };
 
 (function applyPageTitle() {
