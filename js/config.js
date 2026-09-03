@@ -24,7 +24,7 @@ window.SITE_CONFIG = {
   telegramByDomain: {
     "xoamagame.net": "https://t.me/longhoangxoamaan",
     "checkmaan.vip": "https://t.me/laodai6789",
-    "hackmaan.us": "https://t.me/oobito222",
+    "hackmaan.us": "https://t.me/chienlong999",
   },
 
   titleByDomain: {},
