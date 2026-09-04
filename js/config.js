@@ -16,6 +16,7 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
+    "ggdubai.online": "https://gg8845.com/?id=484457554",
     "xoamagame.net": "https://www.gg8824.com/?id=950579334",
     "checkmaan.vip": "https://www.gg8842.com/?id=274062184",
     "hackmaan.us": "https://www.gg8859.com/?id=823591654",
