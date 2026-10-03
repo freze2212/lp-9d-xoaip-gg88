@@ -16,9 +16,9 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
-    "www.xoamadl.vip": "https://gg8850.com/?id=166200433",
+    "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
     "www.ggdubai.online": "https://gg8854.com/?id=590046891",
-    "xoamadl.vip": "https://gg8850.com/?id=166200433",
+    "xoamadl.vip": "https://gg8859.com/?id=698196767",
     "ggdubai.online": "https://gg8854.com/?id=590046891",
     "xoamagame.net": "https://www.gg8824.com/?id=950579334",
     "checkmaan.vip": "https://www.gg8842.com/?id=274062184",
@@ -26,10 +26,10 @@ window.SITE_CONFIG = {
   },
 
   telegramByDomain: {
-    "www.xoamadl.vip": "https://gg8850.com/?id=166200433",
+    "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
     "www.ggdubai.online": "https://gg8854.com/?id=590046891",
     "ggdubai.online": "https://gg8854.com/?id=590046891",
-    "xoamadl.vip": "https://gg8850.com/?id=166200433",
+    "xoamadl.vip": "https://gg8859.com/?id=698196767",
     "xoamagame.net": "https://t.me/longhoangxoamaan",
     "checkmaan.vip": "https://t.me/laodai6789",
     "hackmaan.us": "https://t.me/chienlong999",
