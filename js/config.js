@@ -16,8 +16,6 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
-    "www.g68.online": "https://ygol01d03gg.qnrgos.xyz/register.html",
-    "g68.online": "https://ygol01d03gg.qnrgos.xyz/register.html",
     "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
     "xoamadl.vip": "https://gg8859.com/?id=698196767",
     "xoamagame.net": "https://www.gg8824.com/?id=950579334",
@@ -26,8 +24,6 @@ window.SITE_CONFIG = {
   },
 
   telegramByDomain: {
-    "www.g68.online": "https://ygol01d03gg.qnrgos.xyz/register.html",
-    "g68.online": "https://ygol01d03gg.qnrgos.xyz/register.html",
     "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
     "xoamadl.vip": "https://gg8859.com/?id=698196767",
     "xoamagame.net": "https://t.me/longhoangxoamaan",
