@@ -16,6 +16,8 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
+    "www.g88tong.net": "https://gg8838.com/?id=303830022",
+    "g88tong.net": "https://gg8838.com/?id=303830022",
     "www.kjcquocte.net": "https://gg8838.com/?id=910494688",
     "kjcquocte.net": "https://gg8838.com/?id=910494688",
     "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
@@ -26,6 +28,8 @@ window.SITE_CONFIG = {
   },
 
   telegramByDomain: {
+    "www.g88tong.net": "https://gg8838.com/?id=303830022",
+    "g88tong.net": "https://gg8838.com/?id=303830022",
     "www.kjcquocte.net": "https://gg8838.com/?id=910494688",
     "kjcquocte.net": "https://gg8838.com/?id=910494688",
     "www.xoamadl.vip": "https://gg8859.com/?id=698196767",
