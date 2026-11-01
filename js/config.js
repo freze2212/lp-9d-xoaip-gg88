@@ -16,6 +16,8 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
+    "www.g8tong.com": "https://www.gg8845.com/?id=804285559",
+    "g8tong.com": "https://www.gg8845.com/?id=804285559",
     "www.gg8tong.com": "https://gg8859.com/?id=625772544",
     "gg8tong.com": "https://gg8859.com/?id=625772544",
     "www.g88tong.net": "https://gg8838.com/?id=303830022",
