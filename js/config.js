@@ -18,8 +18,8 @@ window.SITE_CONFIG = {
   linksByDomain: {
     "www.g8tong.com": "https://gg8838.com/?id=910494688",
     "g8tong.com": "https://gg8838.com/?id=910494688",
-    "www.gg8tong.com": "https://02gg88.com/?id=546979230",
-    "gg8tong.com": "https://02gg88.com/?id=546979230",
+    "www.gg8tong.com": "https://gg8859.com/?id=546979230",
+    "gg8tong.com": "https://gg8859.com/?id=546979230",
     "www.g88tong.net": "https://gg8859.com/?id=546979230",
     "g88tong.net": "https://gg8859.com/?id=546979230",
     "www.kjcquocte.net": "https://gg8838.com/?id=910494688",
@@ -34,8 +34,8 @@ window.SITE_CONFIG = {
   telegramByDomain: {
     "www.g8tong.com": "https://gg8838.com/?id=910494688",
     "g8tong.com": "https://gg8838.com/?id=910494688",
-    "www.gg8tong.com": "https://02gg88.com/?id=546979230",
-    "gg8tong.com": "https://02gg88.com/?id=546979230",
+    "www.gg8tong.com": "https://gg8859.com/?id=546979230",
+    "gg8tong.com": "https://gg8859.com/?id=546979230",
     "www.g88tong.net": "https://gg8859.com/?id=546979230",
     "g88tong.net": "https://gg8859.com/?id=546979230",
     "www.kjcquocte.net": "https://gg8838.com/?id=910494688",
